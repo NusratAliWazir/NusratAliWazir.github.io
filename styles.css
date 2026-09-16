@@ -27,3 +27,109 @@
   border: 1px solid rgba(255,255,255,0.55);}
 
 .btn:hover {transform: translateY(-1px);}
+.about-section {
+  padding: 90px 9% 100px;
+  background: #ffffff;
+  color: #0b2a4a;
+}
+
+.about-intro {
+  max-width: 1100px;
+  margin: 0 auto 50px;
+}
+
+.about-intro .eyebrow {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: #c99d3b;
+  margin-bottom: 22px;
+}
+
+.about-intro h2 {
+  margin: 0;
+  max-width: 1000px;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(42px, 5vw, 72px);
+  line-height: 1.08;
+  font-weight: 600;
+  color: #0b2a4a;
+}
+
+.about-tagline {
+  margin: 28px 0 0;
+  max-width: 900px;
+  font-size: 20px;
+  line-height: 1.7;
+  color: #23466b;
+}
+
+.about-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 70px;
+  align-items: start;
+}
+
+.about-text p {
+  margin: 0 0 24px;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #45617d;
+}
+
+.about-points {
+  display: grid;
+  gap: 16px;
+}
+
+.about-point {
+  padding: 25px;
+  border: 1px solid rgba(11, 42, 74, 0.15);
+  border-radius: 10px;
+  background: #f8fafc;
+}
+
+.about-point span {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #c99d3b;
+}
+
+.about-point strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: #0b2a4a;
+}
+
+.about-point small {
+  display: block;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #45617d;
+}
+
+@media (max-width: 800px) {
+  .about-section {
+    padding: 70px 7%;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .about-intro h2 {
+    font-size: 42px;
+  }
+
+  .about-tagline {
+    font-size: 18px;
+  }
+}
