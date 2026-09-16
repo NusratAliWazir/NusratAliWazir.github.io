@@ -140,3 +140,28 @@
   padding: 12px 24px;
   white-space: nowrap;
 }
+/* FINAL HERO BUTTON POSITION FIX */
+
+.hero-copy .lead {
+  display: block;
+  margin: 0 0 32px 0 !important;
+}
+
+.hero-copy .buttons {
+  display: flex !important;
+  position: relative !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  clear: both !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  gap: 14px;
+}
+
+.hero-copy .btn {
+  position: static !important;
+  margin: 0 !important;
+}
